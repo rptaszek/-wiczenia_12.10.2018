@@ -10,6 +10,11 @@ int main() {
 
     przestepny = !(rok % 4) && rok % 100 || !(rok % 400);
 
-    printf("%i", przestepny);
+    if  (przestepny){
+        printf("Rok %i jest przestępny", rok);}
+        else{
+            printf("Rok %i nie jest przestępny", rok);
+        }
+
     return 0;
 }
